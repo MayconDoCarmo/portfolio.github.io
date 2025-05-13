@@ -15,7 +15,7 @@
 }
 
 .introducao h1::before {
-  content:" .";
+  content:" ";
   position: absolute;
   display: block;
   background: url("assests/img/decoracao/deco.svg") no-repeat center/contain;
