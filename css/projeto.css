@@ -1,0 +1,157 @@
+.projeto {
+  max-width: 100%;
+  background-color: #191919;
+  color: #ffffff;
+}
+.projeto-conteiner {
+  max-width: 1200px;
+  padding: 80px 20px 30px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+.projeto-titulo-container {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+}
+
+.index-slide {
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.subtitulo.projeto {
+  word-break: normal;
+  font-size: 6.7rem;
+  grid-column: 1;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+  max-width: 6ch;
+}
+
+.projeto-titulo {
+  margin: 40px 0px;
+  font-size: 2rem;
+}
+
+.projeto-descricao {
+  margin-right: 50px;
+  color: #a3a3a3;
+}
+
+.projeto-descricao,
+.projeto-tecnologias {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  margin-bottom: 30px;
+}
+
+
+.projeto-tecnologias-lista {
+  display: flex;
+  margin-bottom: 60px;
+}
+.projeto-tecnologias-lista li {
+  margin-right: 50px;
+}
+
+.projeto-botao {
+  margin: 25px 0px 15px;
+}
+
+.projeto-botao {
+  display: flex;
+}
+
+.botao-git {
+  margin-right: 40px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #141414;
+}
+
+.slide-direito {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: px;
+
+  border-top: 20px solid rgb(0, 0, 0);
+  border-right: 20px solid rgb(0, 0, 0);
+  border-left: 20px solid rgb(0, 0, 0);
+}
+
+.projeto-print img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: 10px;
+  justify-content: center;
+}
+
+.projeto-card {
+  width: 600px;
+  padding: 20px;
+  background-color: #000;
+  border-radius: 8px;
+  border-left: 5px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.slide-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  border-radius: 7px;
+}
+
+.slide-btn.left {
+  left: 10px;
+}
+
+/* Lado direito */
+.slide-btn.right {
+  right: 10px;
+}
+
+.slide-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.projeto-card img {
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
