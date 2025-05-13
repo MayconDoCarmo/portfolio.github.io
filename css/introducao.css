@@ -18,7 +18,7 @@
   content: " ";
   position: absolute;
   display: block;
-  background: url("assets/img/decoracao/deco.svg") no-repeat center/contain;
+  background: url("../assets/img/decoracao/deco.svg") no-repeat center/contain;
   top: -36px;
   left: -46px;
   z-index: -1;
