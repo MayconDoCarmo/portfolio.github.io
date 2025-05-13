@@ -15,10 +15,10 @@
 }
 
 .introducao h1::before {
-  content:" ";
+  content: " ";
   position: absolute;
   display: block;
-  background: url("assests/img/decoracao/deco.svg") no-repeat center/contain;
+  background: url("assets/img/decoracao/deco.svg") no-repeat center/contain;
   top: -36px;
   left: -46px;
   z-index: -1;
@@ -50,18 +50,18 @@
   position: absolute;
   width: 30px;
   height: 30px;
-   left: 6px;
+  left: 6px;
 }
 
 .introducao-curriculo::before {
-  background: url(assests/icones/introducao-icones/icone-curriculo.svg)
-    no-repeat center/contain;
+  background: url(assets/icones/introducao-icones/icone-curriculo.svg) no-repeat
+    center/contain;
   left: 7px;
   bottom: 5.5px;
 }
 
 .introducao-github::before {
-  background: url(assests/icones/introducao-icones/icone-github.svg) no-repeat
+  background: url(assets/icones/introducao-icones/icone-github.svg) no-repeat
     center/contain;
   bottom: 4px;
   width: 33px;
@@ -69,8 +69,8 @@
 }
 
 .introducao-linkedin::before {
-  background: url(assests/icones/introducao-icones/icone-linkedin.svg)
-    no-repeat center/contain;
+  background: url(assets/icones/introducao-icones/icone-linkedin.svg) no-repeat
+    center/contain;
   bottom: 4px;
 }
 
