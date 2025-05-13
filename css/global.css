@@ -58,3 +58,10 @@ img {
     max-width: initial !important;
   }
 }
+
+@media (max-width: 470px) {
+  p,
+  a {
+    font-size: 1.25rem;
+  }
+}
