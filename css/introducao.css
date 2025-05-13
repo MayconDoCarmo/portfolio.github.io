@@ -18,7 +18,7 @@
   content:" ";
   position: absolute;
   display: block;
-  background: url("https://github.com/MayconDoCarmo/portfolio.github.io/blob/acb3db76f6c6d4c16e21490c2349b3eed71bd7f5/assests/img/decoracao/deco.svg") no-repeat center/contain;
+  background: url("./assests/img/decoracao/deco.svg") no-repeat center/contain;
   top: -36px;
   left: -46px;
   z-index: -1;
