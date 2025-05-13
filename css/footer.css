@@ -38,19 +38,19 @@
 }
 
 .footer-email::before {
-  background: url(/assests/icones/contato-icones/icone-email.svg) no-repeat
+  background: url(assests/icones/contato-icones/icone-email.svg) no-repeat
     center/contain;
   top: 8px;
 }
 
 .footer-whatsapp::before {
-  background: url(/assests/icones/contato-icones/icone-whatsapp.svg) no-repeat
+  background: url(assests/icones/contato-icones/icone-whatsapp.svg) no-repeat
     center/contain;
   top: 6px;
 }
 
 .footer-linkedin::before {
-  background: url(/assests/icones/contato-icones/icone-linkedin.svg) no-repeat
+  background: url(assests/icones/contato-icones/icone-linkedin.svg) no-repeat
     center/contain;
   top: 6px;
 }
